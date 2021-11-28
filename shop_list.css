@@ -1,0 +1,266 @@
+@charset "UTF-8";
+a{
+    color:#fff;
+    margin-top: 3rem;
+}
+span{
+    color:yellow;
+    font-size: 20px;
+    font-family: monospace;
+}
+.product{
+    background-color: seagreen;
+    font-family: monospace;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+.gazou{
+    margin-top: 1rem;
+}
+.cart{
+    width: 100%;
+    margin: auto;
+    font-family: monospace;
+    font-size:25px;
+}
+.cart a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+.login{
+    margin-top: 1rem;
+}
+.login a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+.logout{
+    margin-top: 1rem;
+}
+.logout a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+body{
+    background-color: darkseagreen;
+    color:#fff;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    margin-top: 2rem;
+}
+html{
+    width:100%;
+    height:100%;
+}
+body {
+    width:100%;
+    height:100%;
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+    -webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    background-color: darkseagreen;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+/*モバイル対応*/
+@media screen and (max-width: 599px){
+
+span{
+    color:yellow;
+    font-size: 22px;
+    font-family: monospace;
+    margin: 5px;
+}
+.product{
+    background-color: seagreen;
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+.gazou{
+    margin-top: 1rem;
+}
+.cart{
+    width: 100%;
+    margin: auto;
+    font-family: monospace;
+    font-size: 25px;
+}
+.cart a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+.login{
+    margin-top: 1rem;
+}
+.login a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+.logout{
+    margin-top: 1rem;
+}
+.logout a{
+    color:blue;
+    text-shadow: 0 0 #fff;
+    font-family: monospace;
+}
+img{
+    width: 40%;
+    margin-bottom: 0rem;
+}
+body{
+    background-color: darkseagreen;
+    color:#fff;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    margin-top: 1rem;
+}
+
+}
+
+
+/*タブレット対応*/
+@media screen and (min-width: 600px){
+
+    span{
+        color: yellow;
+        font-size: 22px;
+        font-family: monospace;
+        margin: 5px;
+    }
+    .product{
+        background-color: seagreen;
+        font-family: monospace;
+        font-size: 35px;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+    .gazou{
+        margin-top: 1rem;
+    }
+    .cart{
+        width: 25%;
+        margin: auto;
+        font-family: monospace;
+    }
+    .cart a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+    .login{
+        margin-top: 1rem;
+    }
+    .login a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+    .logout{
+        margin-top: 1rem;
+    }
+    .logout a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+    body{
+        background-color: darkseagreen;
+        color:#fff;
+        text-align: center;
+        font-size: 17px;
+        text-shadow: 2px 2px 0 #111;
+        margin-top: 2rem;
+    }
+    img{
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+/*PC対応*/
+@media screen and (min-width: 1025px){
+    span{
+        color: yellow;
+        font-size: 45px;
+        font-family: monospace;
+        margin: 10px;
+    }
+    .product{
+        background-color: seagreen;
+        margin-bottom: 5rem;
+        font-size: 50px;
+    }
+    .gaozu{
+        margin-top: 1rem;
+    }
+    .cart{
+        width: 100%;
+        height:15%;
+        margin: auto;
+        font-family: monospace;
+        font-size: 40px;
+    }
+    .cart a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+    .login{
+        margin-top: 1rem;
+    }
+    .login a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+    .logout{
+        margin-top: 1rem;
+    }
+    .logout a{
+        color:blue;
+        text-shadow: 0 0 #fff;
+        font-family: monospace;
+    }
+body{
+    background-color: darkseagreen;
+    color:#fff;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 0 #111;
+    margin-top: 3rem;
+}
+img{
+    width:30%;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+}
